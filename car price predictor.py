@@ -10,7 +10,7 @@ from sklearn.pipeline import make_pipeline
 import pickle as pkl
 
 # reading the data from dataset
-df=pd.read_csv('car.csv')
+df=pd.read_csv('cleaned_car.csv')
 df.info()
 
 df['fuel_type'].unique()
